@@ -1,1 +1,3 @@
-TODO
+Before you begin with setting up the VM you'll need to get the ISO of the operating system you want to install. I'll be using Kubuntu 22.04.2 LTS as it is the latest LTS release of Kubuntu at current time. You can choose another operating system if you want, but you may need to adjust certain commands and steps to fit accordingly.
+
+Visit the [Kubuntu website](https://kubuntu.org/getkubuntu/) and download the ISO for the latest LTS release. You can choose to download the torrent or the direct download. I recommend the torrent as it is faster and more reliable. Torrent link: [Kubuntu 22.04.2 LTS (64-bit)](https://cdimage.ubuntu.com/kubuntu/releases/22.04.2/release/kubuntu-22.04.2-desktop-amd64.iso.torrent). Once the download finishes it is advisable to check the checksum of the file. Checksum can be found here: [Kubuntu Alternative Downloads](https://kubuntu.org/alternative-downloads/).

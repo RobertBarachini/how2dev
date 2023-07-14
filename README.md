@@ -8,7 +8,8 @@ Reading order: TODO
 
 Topics:
 
-- [Development Environment](src/md/dev-environment/README.md)
-  <br>
+- [Development Environment](src/md/dev-environment/README.md) <br>
   Build up a cozy place to spend your days in and get work done along the way.
-- [Web Development - TODO](README.md)
+- [Web Development - TODO](README.md)<br>
+- [Linux Console Tools - TODO](README.md)<br>
+	Write a list of useful console tools and utilities (head, tail, jq, ...)
