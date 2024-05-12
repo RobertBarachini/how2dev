@@ -3,6 +3,8 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": false,
 	"cSpell.words": [
-		"Kubuntu"
+		"keymap",
+		"Kubuntu",
+		"xrdp"
 	],
 }
