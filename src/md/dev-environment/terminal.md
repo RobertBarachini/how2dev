@@ -26,6 +26,8 @@ Check if it works in Konsole by going to `System Settings -> Fonts -> Fixed widt
 Alternative font install:
 Open `CascadiaCode/ttf` directory in file explorer, select all extracted `.ttf` files, right click and click `Install`.
 
+You may also want to install the font on your host machine by downloading it from releases and installing it (depends on your OS, but usually right clicking the selected font files and right clicking and selecting install should work).
+
 ## Oh My Posh
 
 Oh My Posh is a prompt theme engine. You can set it up on pretty much any shell you use.

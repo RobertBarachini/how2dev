@@ -133,11 +133,12 @@ Once you have created a new virtual switch you will need to make some changes to
 3. Click on the `+` icon to add a new `Wired Ethernet` connection.
 4. Click on the `IPv4` tab and set the `Method` to `Manual`.
 5. Set `DNS Servers` to `192.168.0.1,8.8.8.8,8.8.4.4`.
-6. Set `Addresses` to `192.168.0.24` (we'll use this address for the VM in this guide).
-7. Set `Netmask` to `255.255.255.0`.
-8. Set `Gateway` to `192.168.0.1`.
-9. Click `Apply`.
-10. Right click on the newly created connection and click `Connect`.
+6. Click the `+` icon to add a new address.
+7. Set `Addresses` to `192.168.0.24` (we'll use this address for the VM in this guide).
+8. Set `Netmask` to `255.255.255.0`.
+9. Set `Gateway` to `192.168.0.1`.
+10. Click `Apply`.
+11. Right click on the newly created connection and click `Connect`.
 
 Verify that the IP address is set correctly by running the following command in the terminal:
 
@@ -216,6 +217,15 @@ sudo systemctl restart ssh
 
 1. On the host machine open a PowerShell window and run the following commands to generate a new SSH key:
 
+> NOTE: You may need to install Git for Windows to get the `ssh-keygen` command. You can download it from [Git for Windows](https://git-scm.com/download/win).
+>
+> NOTE: If the command doesn't work you may need to enable the SSH feature on Windows 10 first. You can install OpenSSH with PowerShell:
+>
+> ```powershell
+> Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+> # NOTE: check the version of the OpenSSH client and adjust the command accordingly
+> ```
+
 ```powershell
 cd C:\Users\$env:UserName\.ssh
 ssh-keygen -t ed25519 -f VM-Kubuntu-2404-Dev
@@ -223,13 +233,6 @@ ssh-keygen -t ed25519 -f VM-Kubuntu-2404-Dev
 ```
 
 Generated private and public keys will be located in `C:\Users\%username%\.ssh` on Windows and in `/etc/ssh` if generated on Linux.
-
-> NOTE: If the command doesn't work you may need to enable the SSH feature on Windows 10 first. You can install OpenSSH with PowerShell:
->
-> ```powershell
-> Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
-> # NOTE: check the version of the OpenSSH client and adjust the command accordingly
-> ```
 
 2. You will need to copy the newly generated public key `VM-Kubuntu-2404-Dev.pub` to `~/.ssh` in your guest (VM). If the folder doesn't already exist, create it (`mkdir ~/.ssh`). Copying keys between Unix systems is easy with the `ssh-copy-id` command, however, it doesn't work on Windows. You can test out copying the file with `ctrl + c` and `ctrl + v` if you properly set up the enhanced session.
 
@@ -249,6 +252,8 @@ Host VM-Kubuntu-2404-Dev
   IdentitiesOnly yes
 	Port 2222
 ```
+
+> NOTE: Make sure to set the correct `User`, `IdentityFile`, and `HostName` (IP) values if you chose other than default in this guide.
 
 5. You can now connect to the VM by running the following command in PowerShell:
 
