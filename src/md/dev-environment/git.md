@@ -1,3 +1,17 @@
+# Installation
+
+Most distros come with Git pre-installed. To check if Git is installed, run the following command:
+
+```sh
+git --version
+```
+
+If Git is not installed, you can install it by running:
+
+```sh
+sudo apt-get install git -y
+```
+
 # Setting up Git
 
 To set up a global Git configuration for your username, run the following commands:
