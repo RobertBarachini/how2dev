@@ -35,4 +35,4 @@ While we covered some of the tools and software in the VM setup guide you can ch
 
 ## Integrated Development Environment (IDE)
 
-You can use any IDE you like, but I recommend using Visual Studio Code (VSCode) as it is a very powerful and customizable IDE. You can check out my setup in the [VSCode](vscode.md) guide.
+You can use any IDE you like, but I recommend using Visual Studio Code (VSCode) as it is a very powerful and customizable IDE (especially useful for remote development). You can check out my setup in the [VS Code](vscode.md) guide.

@@ -37,6 +37,21 @@ sudo apt-get install ffmpeg -y
 ffmpeg -version
 ```
 
+# Git
+
+To set up your Git configuration, run the following commands:
+
+```sh
+git config --global user.name "Firstname Lastname"
+git config --global user.email "username@domain.com"
+# Verify the configuration
+git config --list
+```
+
+# Python
+
+Check out the [Python](python.md) guide for setting up Python and how to use it.
+
 # Docker
 
 To check Docker-specific programs, check out the [Docker](docker.md) guide.
