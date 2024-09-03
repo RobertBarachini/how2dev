@@ -3,8 +3,11 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": false,
 	"cSpell.words": [
+		"filesystems",
 		"keymap",
 		"Kubuntu",
+		"unbootable",
+		"VHDX",
 		"xrdp"
 	],
 }

@@ -12,6 +12,8 @@ Considering the majority of the readers are using Windows, we'll be using Hyper-
 
 Once you have installed and enabled Hyper-V, you can start Hyper-V Manager by searching for it in the Start menu. You can also run `virtmgmt.msc` in the Run dialog (Win + R). I also suggest you pin it to the taskbar for easy access as you'll be using it quite often.
 
+For more information on Hyper-V and VM/VHDX management (you'll probably need it somewhere down the line), check out the [Hyper-V](hyper-v.md) guide.
+
 ## Create a new VM
 
 1. Open Hyper-V Manager.
