@@ -43,12 +43,12 @@ Check out the [Git](git.md) guide for setting up Git and how to use it.
 
 # Python
 
-Check out the [Python](python.md) guide for setting up Python and how to use it.
+Check out the [Python](../technologies/python.md) guide for setting up Python and how to use it.
+
+# Node
+
+Check out the [Node](../technologies/node.md) guide for setting up Node.js and how to use it.
 
 # Docker
 
 To check Docker-specific programs, check out the [Docker](docker.md) guide.
-
-```
-
-```
