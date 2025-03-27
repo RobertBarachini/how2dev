@@ -12,3 +12,5 @@ export PATH=$PATH:/usr/local/go/bin >> ~/.bashrc
 source ~/.bashrc
 go version
 ```
+
+> NOTE: you may need to add `export PATH=$PATH:/home/<username>/go/bin` to `.bashrc` if certain packages refuse to work after sourcing the new config
