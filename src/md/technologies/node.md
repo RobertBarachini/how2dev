@@ -10,7 +10,7 @@ Node Version Manager (nvm) is a tool that allows you to manage multiple versions
 
 ```sh
 # Ensure your system is up to date
-sudo app update -y
+sudo apt update -y
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
