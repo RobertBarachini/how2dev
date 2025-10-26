@@ -54,6 +54,8 @@
 - set Terminal as the default terminal application via Settings > Privacy & Security > For developers > Terminal
 - we will want to get rid of Windows bloatware, telemetry, and unnecessary services. You can do that by using Chris Titus' [winutil](https://github.com/ChrisTitusTech/winutil) script (or any similar debloating script that you trust sufficiently). Follow the instructions on the GitHub page to run the script and remove unwanted components. When making tweaks it is also recommended to create a system restore point beforehand in case something goes wrong (newer versions do this automatically). Also create an export of the config file so you can reuse it later if needed.
 - choose a package manager for easier setup - winget is built-in and works well, but you can also install Chocolatey or Scoop if you prefer those.
+- press `ctrl + shift + esc` to open Task Manager, navigate to the Startup tab, and disable any unnecessary startup programs to improve boot times.
+- turn on Virus & Threat Protection via Windows Security to ensure your system is protected against malware and other threats. You can also install a third-party antivirus if you prefer, but Windows Defender is quite capable nowadays. Malwarebytes is a solid complementary tool for on-demand scans.
 - install your preferred web browser (I recommend Firefox or Brave for better default privacy) - or some other Chromium (ungoogled-chromium) or Firefox (LibreWolf or Waterfox) forks if you prefer even more privacy-focused options. Browsers without a built-in adblocker will benefit greatly by installing the following extensions:
   - uBlock Origin
   - Privacy Badger
